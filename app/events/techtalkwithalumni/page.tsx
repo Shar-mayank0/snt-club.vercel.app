@@ -3,46 +3,54 @@ import Image from 'next/image';
 import Link from 'next/link';
 import RegisterBtn from '@/components/registerBtn';
 
-import codeformers from '@/assets/images/codeformer.jpg';
+import alumniSessionpng from '@/assets/images/alumniSession.jpg';
 
-function codeformer() {
+function alumniSession() {
   return (
     <>
       <header className="bg-[#0A146E] py-2 text-base text-white md:py-8 md:text-xl">
         <div className="block justify-between px-8 align-middle font-bold md:flex md:px-36">
           <div>
             <Link
-              href="https://drive.google.com/file/d/1AF5rmFB_RQ0qer5p_LJcPHlYr1FoD4F3/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1ju4nfey5IKXGSQ6l7vdT_Ioh8FKkqMdS/view?usp=sharing"
               target="_blank"
             >
               <p className="p-2 text-center hover:text-gray-400">Notice</p>
             </Link>
           </div>
           <div className="max-md:mx-auto max-md:w-fit">
-            <Link href="https://forms.gle/uArdA94fbAUCgbsz6" target="_blank">
-              <RegisterBtn/>
+            <Link href="https://forms.gle/LMqgfwHomr181roZ8" target="_blank">
+              <RegisterBtn/>  
             </Link>
           </div>
         </div>
       </header>
       <div className="container mx-auto my-4">
         <div className="mx-16 my-4 text-center">
-          <p className="rounded-xl bg-[#0A146E] text-2xl font-bold text-yellow-400 lg:text-6xl">Codeformers</p>
+          <p className="rounded-xl bg-[#0A146E] text-2xl font-bold text-yellow-400 lg:text-6xl">
+            Tech Talk With Alumni 2.0
+          </p>
         </div>
         <div className="block md:flex">
           <div className="mx-16 pb-8">
-            <Image src={codeformers} alt="codeformers" className="w-fit" />
+            <Image src={alumniSessionpng} alt="alumniSession" className="w-fit" />
           </div>
           <div className="my-auto h-fit">
             <div className="mx-16">
               <div className="mx-auto w-fit text-left text-lg md:text-2xl lg:text-justify">
-                <p>Codeformers , our monthly coding competition! Showcase your skill and grab the top spot.</p>
+                <p>              
+After getting an excellent response in the previous session, the Science and Technology Club once again conduct an expert talk 👨🏻‍🎓session.We are excited to organise the Tech Talk with Alumni 2.0 where you’ll get mentorship and complete guidance from our former club member, Er. Keshav Pareek, GATE 2024 qualified.
+                </p>
                 <br />
-                <p className="text-left ">
-                  Join us for: <br />
-                  • Skill Growth 🚀 <br />
-                  • Network Opportunities 🤝 <br />
-                  • Exciting Prizes 🎉<br />• Fun Competitions 🏆
+                <p className="text-left">
+                What's in store 🤔:                <br />
+                👉🏻Gain valuable career insights. <br />
+                👉🏻Get cleared all your academic and tech related doubts. <br />
+                👉🏻Guidance for career paths to pursue higher studies.<br />
+                👉🏻Certificates will be provided to the participants.<br/>
+
+                Get inspired by alumni success stories! 👍🏻
+
                 </p>
                 <br />
               </div>
@@ -54,7 +62,7 @@ function codeformer() {
                     <span>Date</span>
                   </div>
                   <div>
-                    <span className="text-[18px] font-semibold">Last Wednesday Of Every Month</span>
+                    <span className="text-[18px] font-semibold">9th October 2024 </span>
                   </div>
                 </div>
                 <div className="mt-1">
@@ -62,7 +70,7 @@ function codeformer() {
                     <span>Time</span>
                   </div>
                   <div>
-                    <span className="text-[18px] font-semibold">01:45 PM - 02:45 PM</span>
+                    <span className="text-[18px] font-semibold">1:45 PM Onwards</span>
                   </div>
                 </div>
                 <div className="mt-1">
@@ -70,7 +78,7 @@ function codeformer() {
                     <span>Venue</span>
                   </div>
                   <div>
-                    <span className="text-[18px] font-semibold">CL-1 & CL-3 (CS Block)</span>
+                    <span className="text-[18px] font-semibold">J.C. Bose</span>
                   </div>
                 </div>
               </div>
@@ -82,4 +90,4 @@ function codeformer() {
   );
 }
 
-export default codeformer;
+export default alumniSession;
