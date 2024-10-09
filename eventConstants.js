@@ -34,9 +34,9 @@ const eventDetails = [
     eventName: 'Tech Talk With Alumni 2.0',
     eventDesc: 'Chart your future with insider tips at Tech Talk with Alumni 2.0 - where experience meets inspiration!',
     eventImg: windows_img,
-    eventStatus: 'ongoing',
+    eventStatus: 'past',
     eventRegLink: '/events/techtalkwithalumni',
-    eventRegStatus: 'live',
+    eventRegStatus: 'closed',
   },
   {
     eventName: 'Ask S&T',
