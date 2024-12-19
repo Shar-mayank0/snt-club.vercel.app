@@ -1,3 +1,4 @@
+'use client';
 import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
@@ -35,6 +36,9 @@ function navbar() {
               </li>
               <li className="rounded-md border border-[#EE4B76] bg-[#EE4B76] px-2 duration-300 ease-in-out hover:scale-110 hover:bg-[#0A146E] hover:text-[#EE4B76]">
                 <Link href="/#events">Events</Link>
+              </li>
+              <li className="rounded-md border border-[#EE4B76] bg-[#EE4B76] px-2 duration-300 ease-in-out hover:scale-110 hover:bg-[#0A146E] hover:text-[#EE4B76]">
+                <Link href="/corefam">Our Team</Link>
               </li>
             </ul>
           </nav>
